@@ -1,0 +1,26 @@
+[
+  {
+    "Surname": "Suarez",
+    "Shoot": 0,
+    "Pass": 25,
+    "Tackle": 50,
+    "Interception": 75,
+    "Stamina": 100
+  },
+  {
+    "Surname": "Benzema",
+    "Shoot": null,
+    "Pass": null,
+    "Tackle": null,
+    "Interception": null,
+    "Stamina": null
+  },
+  {
+    "Surname": "Lewandowski",
+    "Shoot": null,
+    "Pass": null,
+    "Tackle": null,
+    "Interception": null,
+    "Stamina": null
+  }
+]

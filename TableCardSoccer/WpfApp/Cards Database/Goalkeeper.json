@@ -1,0 +1,23 @@
+[
+  {
+    "Surname": "Oblak",
+    "Shoot": 0,
+    "Pass": 25,
+    "Save": 50,
+    "Stamina": 99
+  },
+  {
+    "Surname": "Ter Shtegen",
+    "Shoot": null,
+    "Pass": null,
+    "Save": null,
+    "Stamina": null
+  },
+  {
+    "Surname": "Neuer",
+    "Shoot": null,
+    "Pass": null,
+    "Save": null,
+    "Stamina": null
+  }
+]

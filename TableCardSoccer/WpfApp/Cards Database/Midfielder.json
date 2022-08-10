@@ -1,0 +1,26 @@
+[
+  {
+    "Surname": "De Jong",
+    "Shoot": 0,
+    "Pass": 25,
+    "Tackle": 50,
+    "Interception": 75,
+    "Stamina": 100
+  },
+  {
+    "Surname": "Kross",
+    "Shoot": null,
+    "Pass": null,
+    "Tackle": null,
+    "Interception": null,
+    "Stamina": null
+  },
+  {
+    "Surname": "Foden",
+    "Shoot": null,
+    "Pass": null,
+    "Tackle": null,
+    "Interception": null,
+    "Stamina": null
+  }
+]

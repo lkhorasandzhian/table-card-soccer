@@ -6,7 +6,5 @@ using System.Threading.Tasks;
 
 namespace WpfApp.Positions
 {
-    internal class Forward : SoccerPlayer
-    {
-    }
+    internal class Forward : SoccerPlayer { }
 }
