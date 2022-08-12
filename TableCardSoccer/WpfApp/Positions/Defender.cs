@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace WpfApp.Positions
 {
-    internal class Defender : SoccerPlayer { }
+    public class Defender : SoccerPlayer { }
 }

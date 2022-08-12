@@ -7,7 +7,7 @@ using WpfApp.Positions;
 
 namespace WpfApp.Lineup
 {
-    internal class Lineup
+    public class Lineup
     {
         private Goalkeeper _goalkeeper;
         private List<Defender> _defenders;
@@ -63,13 +63,18 @@ namespace WpfApp.Lineup
         }
 
         private int _countOfSubstitution = 3;
+        private readonly List<(int, int, int)> tactics = new List<(int, int, int)> { (5, 3, 2), (4, 4, 2), (4, 3, 3) };
 
         public Lineup(Goalkeeper goalkeeper, List<Defender> defenders, List<Midfielder> midfielders, List<Forward> forwards, int countOfSubstitution)
         {
-            Goalkeeper = goalkeeper;
-            Defenders = defenders;
-            Midfielders = midfielders;
-            Forwards = forwards;
+            if (!tactics.Contains((defenders.Count(), midfielders.Count(), forwards.Count())))
+            {
+                throw new ArgumentException("Wrong amount of football players");
+            }
+            _goalkeeper = goalkeeper;
+            _defenders = defenders;
+            _midfielders = midfielders;
+            _forwards = forwards;
         }
     }
 }
