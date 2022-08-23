@@ -1,14 +1,6 @@
 [
   {
-    "Surname": "Sergio Ramos",
-    "Shoot": 0,
-    "Pass": 25,
-    "Tackle": 50,
-    "Interception": 75,
-    "Stamina": 100
-  },
-  {
-    "Surname": "Van Dijk",
+    "Surname": null,
     "Shoot": null,
     "Pass": null,
     "Tackle": null,
@@ -16,7 +8,7 @@
     "Stamina": null
   },
   {
-    "Surname": "De Ligt",
+    "Surname": null,
     "Shoot": null,
     "Pass": null,
     "Tackle": null,
