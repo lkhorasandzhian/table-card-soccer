@@ -1,16 +1,58 @@
 [
   {
-    "Surname": null,
-    "Shoot": null,
-    "Pass": null,
-    "Save": null,
-    "Stamina": null
+    "Surname": "Marc-André ter Stegen",
+    "Shoot": 33,
+    "Pass": 90,
+    "Tackle": 90,
+    "Stamina": 87
   },
   {
-    "Surname": null,
-    "Shoot": null,
-    "Pass": null,
-    "Save": null,
-    "Stamina": null
+    "Surname": "Neto",
+    "Shoot": 33,
+    "Pass": 79,
+    "Tackle": 82,
+    "Stamina": 77
+  },
+  {
+    "Surname": "Thibaut Courtois",
+    "Shoot": 43,
+    "Pass": 89,
+    "Tackle": 91,
+    "Stamina": 90
+  },
+  {
+    "Surname": "Andriy Lunin",
+    "Shoot": 27,
+    "Pass": 77,
+    "Tackle": 79,
+    "Stamina": 73
+  },
+  {
+    "Surname": "E. Mendy",
+    "Shoot": 30,
+    "Pass": 85,
+    "Tackle": 87,
+    "Stamina": 93
+  },
+  {
+    "Surname": "Kepa",
+    "Shoot": 56,
+    "Pass": 55,
+    "Tackle": 95,
+    "Stamina": 83
+  },
+  {
+    "Surname": "Alisson",
+    "Shoot": 40,
+    "Pass": 75,
+    "Tackle": 89,
+    "Stamina": 94
+  },
+  {
+    "Surname": "Adrián",
+    "Shoot": 27,
+    "Pass": 63,
+    "Tackle": 72,
+    "Stamina": 78
   }
 ]

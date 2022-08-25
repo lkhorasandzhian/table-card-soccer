@@ -1,18 +1,130 @@
 [
   {
-    "Surname": null,
-    "Shoot": null,
-    "Pass": null,
-    "Tackle": null,
-    "Interception": null,
-    "Stamina": null
+    "Surname": "Ousmane Dembélé",
+    "Shoot": 80,
+    "Pass": 77,
+    "Tackle": 30,
+    "Interception": 43,
+    "Stamina": 87
   },
   {
-    "Surname": null,
-    "Shoot": null,
-    "Pass": null,
-    "Tackle": null,
-    "Interception": null,
-    "Stamina": null
+    "Surname": "Memphis Depay",
+    "Shoot": 87,
+    "Pass": 80,
+    "Tackle": 50,
+    "Interception": 34,
+    "Stamina": 80
+  },
+  {
+    "Surname": "Pierre-Emerick Aubameyang",
+    "Shoot": 88,
+    "Pass": 78,
+    "Tackle": 37,
+    "Interception": 35,
+    "Stamina": 82
+  },
+  {
+    "Surname": "Luuk de Jong",
+    "Shoot": 70,
+    "Pass": 45,
+    "Tackle": 18,
+    "Interception": 10,
+    "Stamina": 50
+  },
+  {
+    "Surname": "Rodrygo",
+    "Shoot": 80,
+    "Pass": 74,
+    "Tackle": 37,
+    "Interception": 46,
+    "Stamina": 75
+  },
+  {
+    "Surname": "Karim Benzema",
+    "Shoot": 95,
+    "Pass": 82,
+    "Tackle": 49,
+    "Interception": 64,
+    "Stamina": 81
+  },
+  {
+    "Surname": "Vinicius Junior",
+    "Shoot": 86,
+    "Pass": 79,
+    "Tackle": 43,
+    "Interception": 38,
+    "Stamina": 80
+  },
+  {
+    "Surname": "Eden Hazard",
+    "Shoot": 68,
+    "Pass": 89,
+    "Tackle": 37,
+    "Interception": 32,
+    "Stamina": 69
+  },
+  {
+    "Surname": "Lukaku",
+    "Shoot": 88,
+    "Pass": 70,
+    "Tackle": 39,
+    "Interception": 34,
+    "Stamina": 89
+  },
+  {
+    "Surname": "Pulisic",
+    "Shoot": 69,
+    "Pass": 70,
+    "Tackle": 17,
+    "Interception": 11,
+    "Stamina": 84
+  },
+  {
+    "Surname": "Ziyech",
+    "Shoot": 82,
+    "Pass": 80,
+    "Tackle": 26,
+    "Interception": 23,
+    "Stamina": 67
+  },
+  {
+    "Surname": "Havertz",
+    "Shoot": 85,
+    "Pass": 78,
+    "Tackle": 28,
+    "Interception": 22,
+    "Stamina": 86
+  },
+  {
+    "Surname": "Salah",
+    "Shoot": 89,
+    "Pass": 82,
+    "Tackle": 11,
+    "Interception": 19,
+    "Stamina": 81
+  },
+  {
+    "Surname": "Firmino",
+    "Shoot": 80,
+    "Pass": 76,
+    "Tackle": 21,
+    "Interception": 22,
+    "Stamina": 87
+  },
+  {
+    "Surname": "Mané",
+    "Shoot": 87,
+    "Pass": 78,
+    "Tackle": 23,
+    "Interception": 21,
+    "Stamina": 89
+  },
+  {
+    "Surname": "Jota",
+    "Shoot": 84,
+    "Pass": 71,
+    "Tackle": 29,
+    "Interception": 31,
+    "Stamina": 75
   }
 ]
