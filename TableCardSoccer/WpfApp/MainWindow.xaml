@@ -8,8 +8,41 @@
         Title="Table Card Soccer" Height="1080" Width="1920"
         WindowStyle="SingleBorderWindow" ResizeMode="NoResize" WindowState="Maximized"
         Icon="/game_logo.png"
-        Background="LightGreen" Foreground="Black" BorderBrush="Black" BorderThickness="2">
-    <Grid>
-
+        BorderBrush="Black" BorderThickness="2">
+    <Grid Background="LightGreen">
+        <Grid Background="DarkGreen" VerticalAlignment="Top" Height="120">
+            <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="30" FontFamily="Century Gothic">
+                <TextBlock.Text>
+                    ──── • ✤
+                </TextBlock.Text>
+            </TextBlock>
+            <Border HorizontalAlignment="Center" VerticalAlignment="Center" BorderThickness="1" BorderBrush="Black" Background="LightGray" CornerRadius="15">
+                <TextBlock FontSize="65" FontFamily="Century Gothic" Margin="5 0 5 0">
+                    <TextBlock.Text>
+                        Table Card Soccer
+                    </TextBlock.Text>
+                </TextBlock>
+            </Border>
+            <TextBlock HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="30" FontFamily="Century Gothic">
+                <TextBlock.Text>
+                    ✤ • ────
+                </TextBlock.Text>
+            </TextBlock>
+        </Grid>
+        <Grid HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="500">
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" Width="300">
+                <Button>
+                    <Label FontSize="40" FontFamily="Courier New">
+                        Play
+                    </Label>
+                </Button>
+                <Separator Opacity="100" Height= "30" Width="150" Background="Black"></Separator>
+                <Button>
+                    <Label FontSize="40" FontFamily="Courier New">
+                        Settings
+                    </Label>
+                </Button>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>
