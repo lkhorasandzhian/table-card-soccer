@@ -31,7 +31,7 @@
         </Grid>
         <Grid HorizontalAlignment="Center" VerticalAlignment="Stretch" Width="500">
             <StackPanel Orientation="Vertical" VerticalAlignment="Center" Width="300">
-                <Button>
+                <Button Click="Button_Click">
                     <Label FontSize="40" FontFamily="Courier New">
                         Play
                     </Label>

@@ -24,5 +24,12 @@ namespace WpfApp
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            WindowSetLineup newWindow = new WindowSetLineup();
+            newWindow.Show();
+
+        }
     }
 }
