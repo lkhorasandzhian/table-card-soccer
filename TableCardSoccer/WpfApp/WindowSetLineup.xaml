@@ -5,25 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
-        Title="WindowSetLineup" Height="450" Width="800">
-    <Grid>
-        <ComboBox x:Name="ComboBoxLineup" SelectionChanged="ComboBoxLineup_SelectionChanged" 
-                  VerticalAlignment="Bottom" Width="200" Height="100">
-            <ComboBoxItem Content="5-3-2"></ComboBoxItem>
-            <ComboBoxItem Content="4-4-2"></ComboBoxItem>
-            <ComboBoxItem Content="4-3-3"></ComboBoxItem>
-        </ComboBox>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Width="300" VerticalAlignment="Bottom" Height="300"
-                    Background="Green">
-            <StackPanel Orientation="Horizontal" x:Name="Defenders" Background="Yellow" Height="50"/>
-            <Separator/>
-            <StackPanel Orientation="Horizontal" x:Name="Midfielders" Background="Yellow" Height="50"/>
-            <Separator/>
-            <StackPanel Orientation="Horizontal" x:Name="Forwards" Background="Yellow" Height="50"/>
-            <Separator/>
-            <Separator/>
-            <StackPanel Orientation="Horizontal" x:Name="Goalkeeper" Background="Yellow" Height="50"/>
+        Title="WindowSetLineup" Height="1080" Width="1920"
+        WindowStyle="SingleBorderWindow" ResizeMode="NoResize" WindowState="Maximized"
+        Icon="/game_logo.png"
+        BorderBrush="Black" BorderThickness="2">
+    <Grid Background="LightGreen">
+        <StackPanel Orientation="Horizontal">
+            <StackPanel x:Name="PlayersList" Background="DarkGreen" Width="200"/>
+            <ComboBox x:Name="ComboBoxLineup" SelectionChanged="ComboBoxLineup_SelectionChanged" VerticalAlignment="Bottom" Height="50" Width="100" FontSize="24">
+                <ComboBoxItem Content="5-3-2"></ComboBoxItem>
+                <ComboBoxItem Content="4-4-2"></ComboBoxItem>
+                <ComboBoxItem Content="4-3-3"></ComboBoxItem>
+            </ComboBox>
+            <Separator Opacity="0" Width="20"></Separator>
+            <Grid VerticalAlignment="Stretch" HorizontalAlignment="Center" Height="830" Width="1210">
+                <Border BorderThickness="2" BorderBrush="Black">
+                    <StackPanel Orientation="Vertical" Background="#717C82">
+                        <StackPanel Orientation="Horizontal" x:Name="Defenders" Background="#3B74EB" Height="150"/>
+                        <Separator Opacity="0" Height= "72"></Separator>
+                        <StackPanel Orientation="Horizontal" x:Name="Midfielders" Background="#33A113" Height="150"/>
+                        <Separator Opacity="0" Height= "72"></Separator>
+                        <StackPanel Orientation="Horizontal" x:Name="Forwards" Background="#DAE818" Height="150"/>
+                        <Separator Opacity="0" Height= "72"></Separator>
+                        <StackPanel Orientation="Horizontal" x:Name="Goalkeeper" Background="#E85E19" Height="150"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
         </StackPanel>
-        <StackPanel x:Name="PlayersList" Background="Blue" HorizontalAlignment="Right" Width="200"/>
     </Grid>
 </Window>
